@@ -28,7 +28,7 @@ function debounce(fn, wait) {
 	let timeout;
 	return function () {
 		clearTimeout(timeout);
-		setTimeout(fn,wait);						// fn-->fn()?
+		setTimeout(fn,wait);						// fn, fn(), fn(arguements)?
 	}
 }
 													//if fn has arguments?
