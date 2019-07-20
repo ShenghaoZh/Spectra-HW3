@@ -27,7 +27,7 @@ Array.prototype.reduce = function(fn) {
 function debounce(fn, wait) {
 	let timeout;
 	return function () {
-		clearTimeout;
+		clearTimeout(timeout);
 		setTimeout(fn,wait);						// fn-->fn()?
 	}
 }
